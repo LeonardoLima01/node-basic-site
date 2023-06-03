@@ -20,6 +20,6 @@ server = http.createServer((req, res) => {
   });
 });
 
-server.listen(process.env.PORT || 3000, () => {
-  console.log("Server open at http://localhost:3000");
+server.listen(process.env.PORT || 8080, () => {
+  console.log("Server open at http://localhost:8080");
 });
